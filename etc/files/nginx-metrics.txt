@@ -1,0 +1,732 @@
+# HELP go_gc_duration_seconds A summary of the pause duration of garbage collection cycles.
+# TYPE go_gc_duration_seconds summary
+go_gc_duration_seconds{quantile="0"} 2.2125e-05
+go_gc_duration_seconds{quantile="0.25"} 8.8083e-05
+go_gc_duration_seconds{quantile="0.5"} 0.000110416
+go_gc_duration_seconds{quantile="0.75"} 0.00016853
+go_gc_duration_seconds{quantile="1"} 0.004416665
+go_gc_duration_seconds_sum 0.190978675
+go_gc_duration_seconds_count 854
+# HELP go_goroutines Number of goroutines that currently exist.
+# TYPE go_goroutines gauge
+go_goroutines 75
+# HELP go_info Information about the Go environment.
+# TYPE go_info gauge
+go_info{version="go1.21.3"} 1
+# HELP go_memstats_alloc_bytes Number of bytes allocated and still in use.
+# TYPE go_memstats_alloc_bytes gauge
+go_memstats_alloc_bytes 4.593688e+06
+# HELP go_memstats_alloc_bytes_total Total number of bytes allocated, even if freed.
+# TYPE go_memstats_alloc_bytes_total counter
+go_memstats_alloc_bytes_total 2.085686416e+09
+# HELP go_memstats_buck_hash_sys_bytes Number of bytes used by the profiling bucket hash table.
+# TYPE go_memstats_buck_hash_sys_bytes gauge
+go_memstats_buck_hash_sys_bytes 5654
+# HELP go_memstats_frees_total Total number of frees.
+# TYPE go_memstats_frees_total counter
+go_memstats_frees_total 1.3603638e+07
+# HELP go_memstats_gc_sys_bytes Number of bytes used for garbage collection system metadata.
+# TYPE go_memstats_gc_sys_bytes gauge
+go_memstats_gc_sys_bytes 4.21384e+06
+# HELP go_memstats_heap_alloc_bytes Number of heap bytes allocated and still in use.
+# TYPE go_memstats_heap_alloc_bytes gauge
+go_memstats_heap_alloc_bytes 4.593688e+06
+# HELP go_memstats_heap_idle_bytes Number of heap bytes waiting to be used.
+# TYPE go_memstats_heap_idle_bytes gauge
+go_memstats_heap_idle_bytes 5.292032e+06
+# HELP go_memstats_heap_inuse_bytes Number of heap bytes that are in use.
+# TYPE go_memstats_heap_inuse_bytes gauge
+go_memstats_heap_inuse_bytes 6.30784e+06
+# HELP go_memstats_heap_objects Number of allocated objects.
+# TYPE go_memstats_heap_objects gauge
+go_memstats_heap_objects 14599
+# HELP go_memstats_heap_released_bytes Number of heap bytes released to OS.
+# TYPE go_memstats_heap_released_bytes gauge
+go_memstats_heap_released_bytes 3.60448e+06
+# HELP go_memstats_heap_sys_bytes Number of heap bytes obtained from system.
+# TYPE go_memstats_heap_sys_bytes gauge
+go_memstats_heap_sys_bytes 1.1599872e+07
+# HELP go_memstats_last_gc_time_seconds Number of seconds since 1970 of last garbage collection.
+# TYPE go_memstats_last_gc_time_seconds gauge
+go_memstats_last_gc_time_seconds 1.699339014099112e+09
+# HELP go_memstats_lookups_total Total number of pointer lookups.
+# TYPE go_memstats_lookups_total counter
+go_memstats_lookups_total 0
+# HELP go_memstats_mallocs_total Total number of mallocs.
+# TYPE go_memstats_mallocs_total counter
+go_memstats_mallocs_total 1.3618237e+07
+# HELP go_memstats_mcache_inuse_bytes Number of bytes in use by mcache structures.
+# TYPE go_memstats_mcache_inuse_bytes gauge
+go_memstats_mcache_inuse_bytes 2400
+# HELP go_memstats_mcache_sys_bytes Number of bytes used for mcache structures obtained from system.
+# TYPE go_memstats_mcache_sys_bytes gauge
+go_memstats_mcache_sys_bytes 15600
+# HELP go_memstats_mspan_inuse_bytes Number of bytes in use by mspan structures.
+# TYPE go_memstats_mspan_inuse_bytes gauge
+go_memstats_mspan_inuse_bytes 110880
+# HELP go_memstats_mspan_sys_bytes Number of bytes used for mspan structures obtained from system.
+# TYPE go_memstats_mspan_sys_bytes gauge
+go_memstats_mspan_sys_bytes 195552
+# HELP go_memstats_next_gc_bytes Number of heap bytes when next garbage collection will take place.
+# TYPE go_memstats_next_gc_bytes gauge
+go_memstats_next_gc_bytes 6.905448e+06
+# HELP go_memstats_other_sys_bytes Number of bytes used for other system allocations.
+# TYPE go_memstats_other_sys_bytes gauge
+go_memstats_other_sys_bytes 786650
+# HELP go_memstats_stack_inuse_bytes Number of bytes in use by the stack allocator.
+# TYPE go_memstats_stack_inuse_bytes gauge
+go_memstats_stack_inuse_bytes 983040
+# HELP go_memstats_stack_sys_bytes Number of bytes obtained from system for stack allocator.
+# TYPE go_memstats_stack_sys_bytes gauge
+go_memstats_stack_sys_bytes 983040
+# HELP go_memstats_sys_bytes Number of bytes obtained from system.
+# TYPE go_memstats_sys_bytes gauge
+go_memstats_sys_bytes 1.7800208e+07
+# HELP go_threads Number of OS threads created.
+# TYPE go_threads gauge
+go_threads 12
+# HELP nginx_config_generation 
+# TYPE nginx_config_generation counter
+nginx_config_generation{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 0
+# HELP nginx_http_conn_accepted 
+# TYPE nginx_http_conn_accepted counter
+nginx_http_conn_accepted{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 0
+# HELP nginx_http_conn_active 
+# TYPE nginx_http_conn_active gauge
+nginx_http_conn_active{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 1
+# HELP nginx_http_conn_current 
+# TYPE nginx_http_conn_current gauge
+nginx_http_conn_current{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 1
+# HELP nginx_http_conn_dropped 
+# TYPE nginx_http_conn_dropped counter
+nginx_http_conn_dropped{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 0
+# HELP nginx_http_conn_idle 
+# TYPE nginx_http_conn_idle gauge
+nginx_http_conn_idle{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 0
+# HELP nginx_http_request_count 
+# TYPE nginx_http_request_count counter
+nginx_http_request_count{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 15
+# HELP nginx_http_request_current 
+# TYPE nginx_http_request_current gauge
+nginx_http_request_current{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 1
+# HELP nginx_status 
+# TYPE nginx_status gauge
+nginx_status{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 1
+# HELP nginx_workers_count 
+# TYPE nginx_workers_count gauge
+nginx_workers_count{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 2
+# HELP nginx_workers_cpu_system 
+# TYPE nginx_workers_cpu_system counter
+nginx_workers_cpu_system{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 0
+# HELP nginx_workers_cpu_total 
+# TYPE nginx_workers_cpu_total counter
+nginx_workers_cpu_total{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 0
+# HELP nginx_workers_cpu_user 
+# TYPE nginx_workers_cpu_user counter
+nginx_workers_cpu_user{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 0
+# HELP nginx_workers_fds_count 
+# TYPE nginx_workers_fds_count gauge
+nginx_workers_fds_count{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 27
+# HELP nginx_workers_io_kbs_r 
+# TYPE nginx_workers_io_kbs_r counter
+nginx_workers_io_kbs_r{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 0
+# HELP nginx_workers_io_kbs_w 
+# TYPE nginx_workers_io_kbs_w counter
+nginx_workers_io_kbs_w{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 0
+# HELP nginx_workers_mem_rss 
+# TYPE nginx_workers_mem_rss gauge
+nginx_workers_mem_rss{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 1.0235904e+07
+# HELP nginx_workers_mem_rss_pct 
+# TYPE nginx_workers_mem_rss_pct gauge
+nginx_workers_mem_rss_pct{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 0.24954888969659805
+# HELP nginx_workers_mem_vms 
+# TYPE nginx_workers_mem_vms gauge
+nginx_workers_mem_vms{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 2.8409856e+07
+# HELP nginx_workers_rlimit_nofile 
+# TYPE nginx_workers_rlimit_nofile gauge
+nginx_workers_rlimit_nofile{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 524288
+# HELP plus_http_request_bytes_rcvd 
+# TYPE plus_http_request_bytes_rcvd counter
+plus_http_request_bytes_rcvd{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",server_zone="f5manage03.example.com",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 0
+# HELP plus_http_request_bytes_sent 
+# TYPE plus_http_request_bytes_sent counter
+plus_http_request_bytes_sent{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",server_zone="f5manage03.example.com",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 0
+# HELP plus_http_request_count 
+# TYPE plus_http_request_count counter
+plus_http_request_count{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",server_zone="f5manage03.example.com",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 0
+# HELP plus_http_response_count 
+# TYPE plus_http_response_count counter
+plus_http_response_count{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",server_zone="f5manage03.example.com",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 0
+# HELP plus_http_ssl_handshakes 
+# TYPE plus_http_ssl_handshakes counter
+plus_http_ssl_handshakes{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",server_zone="f5manage03.example.com",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 0
+# HELP plus_http_ssl_handshakes_failed 
+# TYPE plus_http_ssl_handshakes_failed counter
+plus_http_ssl_handshakes_failed{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",server_zone="f5manage03.example.com",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 0
+# HELP plus_http_ssl_session_reuses 
+# TYPE plus_http_ssl_session_reuses counter
+plus_http_ssl_session_reuses{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",server_zone="f5manage03.example.com",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 0
+# HELP plus_http_status_1xx 
+# TYPE plus_http_status_1xx counter
+plus_http_status_1xx{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",server_zone="f5manage03.example.com",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 0
+# HELP plus_http_status_2xx 
+# TYPE plus_http_status_2xx counter
+plus_http_status_2xx{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",server_zone="f5manage03.example.com",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 0
+# HELP plus_http_status_3xx 
+# TYPE plus_http_status_3xx counter
+plus_http_status_3xx{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",server_zone="f5manage03.example.com",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 0
+# HELP plus_http_status_4xx 
+# TYPE plus_http_status_4xx counter
+plus_http_status_4xx{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",server_zone="f5manage03.example.com",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 0
+# HELP plus_http_status_5xx 
+# TYPE plus_http_status_5xx counter
+plus_http_status_5xx{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",server_zone="f5manage03.example.com",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 0
+# HELP plus_http_status_discarded 
+# TYPE plus_http_status_discarded counter
+plus_http_status_discarded{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",server_zone="f5manage03.example.com",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 0
+# HELP plus_http_status_processing 
+# TYPE plus_http_status_processing gauge
+plus_http_status_processing{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",server_zone="f5manage03.example.com",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 0
+# HELP plus_http_upstream_keepalives 
+# TYPE plus_http_upstream_keepalives gauge
+plus_http_upstream_keepalives{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",upstream="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80",upstream_zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 0
+# HELP plus_http_upstream_peers_bytes_rcvd 
+# TYPE plus_http_upstream_peers_bytes_rcvd counter
+plus_http_upstream_peers_bytes_rcvd{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",peer_address="10.1.10.132:8080",peer_name="10.1.10.132:8080",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",upstream="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80",upstream_zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 0
+plus_http_upstream_peers_bytes_rcvd{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",peer_address="10.1.10.132:8090",peer_name="10.1.10.132:8090",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",upstream="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80",upstream_zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 0
+# HELP plus_http_upstream_peers_bytes_sent 
+# TYPE plus_http_upstream_peers_bytes_sent counter
+plus_http_upstream_peers_bytes_sent{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",peer_address="10.1.10.132:8080",peer_name="10.1.10.132:8080",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",upstream="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80",upstream_zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 0
+plus_http_upstream_peers_bytes_sent{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",peer_address="10.1.10.132:8090",peer_name="10.1.10.132:8090",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",upstream="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80",upstream_zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 0
+# HELP plus_http_upstream_peers_conn_active 
+# TYPE plus_http_upstream_peers_conn_active gauge
+plus_http_upstream_peers_conn_active{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",peer_address="10.1.10.132:8080",peer_name="10.1.10.132:8080",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",upstream="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80",upstream_zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 0
+plus_http_upstream_peers_conn_active{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",peer_address="10.1.10.132:8090",peer_name="10.1.10.132:8090",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",upstream="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80",upstream_zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 0
+# HELP plus_http_upstream_peers_fails 
+# TYPE plus_http_upstream_peers_fails counter
+plus_http_upstream_peers_fails{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",peer_address="10.1.10.132:8080",peer_name="10.1.10.132:8080",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",upstream="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80",upstream_zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 0
+plus_http_upstream_peers_fails{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",peer_address="10.1.10.132:8090",peer_name="10.1.10.132:8090",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",upstream="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80",upstream_zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 0
+# HELP plus_http_upstream_peers_header_time 
+# TYPE plus_http_upstream_peers_header_time gauge
+plus_http_upstream_peers_header_time{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",peer_address="10.1.10.132:8080",peer_name="10.1.10.132:8080",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",upstream="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80",upstream_zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 0
+plus_http_upstream_peers_header_time{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",peer_address="10.1.10.132:8090",peer_name="10.1.10.132:8090",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",upstream="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80",upstream_zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 0
+# HELP plus_http_upstream_peers_header_time_count 
+# TYPE plus_http_upstream_peers_header_time_count counter
+plus_http_upstream_peers_header_time_count{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",upstream="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80",upstream_zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 2
+# HELP plus_http_upstream_peers_header_time_max 
+# TYPE plus_http_upstream_peers_header_time_max gauge
+plus_http_upstream_peers_header_time_max{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",upstream="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80",upstream_zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 0
+# HELP plus_http_upstream_peers_header_time_median 
+# TYPE plus_http_upstream_peers_header_time_median gauge
+plus_http_upstream_peers_header_time_median{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",upstream="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80",upstream_zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 0
+# HELP plus_http_upstream_peers_header_time_pctl95 
+# TYPE plus_http_upstream_peers_header_time_pctl95 gauge
+plus_http_upstream_peers_header_time_pctl95{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",upstream="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80",upstream_zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 0
+# HELP plus_http_upstream_peers_health_checks_checks 
+# TYPE plus_http_upstream_peers_health_checks_checks counter
+plus_http_upstream_peers_health_checks_checks{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",peer_address="10.1.10.132:8080",peer_name="10.1.10.132:8080",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",upstream="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80",upstream_zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 0
+plus_http_upstream_peers_health_checks_checks{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",peer_address="10.1.10.132:8090",peer_name="10.1.10.132:8090",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",upstream="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80",upstream_zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 0
+# HELP plus_http_upstream_peers_health_checks_fails 
+# TYPE plus_http_upstream_peers_health_checks_fails counter
+plus_http_upstream_peers_health_checks_fails{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",peer_address="10.1.10.132:8080",peer_name="10.1.10.132:8080",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",upstream="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80",upstream_zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 0
+plus_http_upstream_peers_health_checks_fails{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",peer_address="10.1.10.132:8090",peer_name="10.1.10.132:8090",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",upstream="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80",upstream_zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 0
+# HELP plus_http_upstream_peers_health_checks_unhealthy 
+# TYPE plus_http_upstream_peers_health_checks_unhealthy counter
+plus_http_upstream_peers_health_checks_unhealthy{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",peer_address="10.1.10.132:8080",peer_name="10.1.10.132:8080",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",upstream="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80",upstream_zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 0
+plus_http_upstream_peers_health_checks_unhealthy{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",peer_address="10.1.10.132:8090",peer_name="10.1.10.132:8090",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",upstream="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80",upstream_zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 0
+# HELP plus_http_upstream_peers_request_count 
+# TYPE plus_http_upstream_peers_request_count counter
+plus_http_upstream_peers_request_count{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",peer_address="10.1.10.132:8080",peer_name="10.1.10.132:8080",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",upstream="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80",upstream_zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 0
+plus_http_upstream_peers_request_count{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",peer_address="10.1.10.132:8090",peer_name="10.1.10.132:8090",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",upstream="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80",upstream_zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 0
+# HELP plus_http_upstream_peers_response_count 
+# TYPE plus_http_upstream_peers_response_count counter
+plus_http_upstream_peers_response_count{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",peer_address="10.1.10.132:8080",peer_name="10.1.10.132:8080",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",upstream="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80",upstream_zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 0
+plus_http_upstream_peers_response_count{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",peer_address="10.1.10.132:8090",peer_name="10.1.10.132:8090",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",upstream="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80",upstream_zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 0
+# HELP plus_http_upstream_peers_response_time 
+# TYPE plus_http_upstream_peers_response_time gauge
+plus_http_upstream_peers_response_time{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",peer_address="10.1.10.132:8080",peer_name="10.1.10.132:8080",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",upstream="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80",upstream_zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 0
+plus_http_upstream_peers_response_time{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",peer_address="10.1.10.132:8090",peer_name="10.1.10.132:8090",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",upstream="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80",upstream_zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 0
+# HELP plus_http_upstream_peers_response_time_count 
+# TYPE plus_http_upstream_peers_response_time_count counter
+plus_http_upstream_peers_response_time_count{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",upstream="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80",upstream_zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 2
+# HELP plus_http_upstream_peers_response_time_max 
+# TYPE plus_http_upstream_peers_response_time_max gauge
+plus_http_upstream_peers_response_time_max{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",upstream="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80",upstream_zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 0
+# HELP plus_http_upstream_peers_response_time_median 
+# TYPE plus_http_upstream_peers_response_time_median gauge
+plus_http_upstream_peers_response_time_median{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",upstream="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80",upstream_zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 0
+# HELP plus_http_upstream_peers_response_time_pctl95 
+# TYPE plus_http_upstream_peers_response_time_pctl95 gauge
+plus_http_upstream_peers_response_time_pctl95{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",upstream="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80",upstream_zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 0
+# HELP plus_http_upstream_peers_ssl_handshakes 
+# TYPE plus_http_upstream_peers_ssl_handshakes counter
+plus_http_upstream_peers_ssl_handshakes{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",peer_address="10.1.10.132:8080",peer_name="10.1.10.132:8080",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",upstream="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80",upstream_zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 0
+plus_http_upstream_peers_ssl_handshakes{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",peer_address="10.1.10.132:8090",peer_name="10.1.10.132:8090",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",upstream="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80",upstream_zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 0
+# HELP plus_http_upstream_peers_ssl_handshakes_failed 
+# TYPE plus_http_upstream_peers_ssl_handshakes_failed counter
+plus_http_upstream_peers_ssl_handshakes_failed{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",peer_address="10.1.10.132:8080",peer_name="10.1.10.132:8080",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",upstream="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80",upstream_zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 0
+plus_http_upstream_peers_ssl_handshakes_failed{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",peer_address="10.1.10.132:8090",peer_name="10.1.10.132:8090",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",upstream="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80",upstream_zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 0
+# HELP plus_http_upstream_peers_ssl_session_reuses 
+# TYPE plus_http_upstream_peers_ssl_session_reuses counter
+plus_http_upstream_peers_ssl_session_reuses{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",peer_address="10.1.10.132:8080",peer_name="10.1.10.132:8080",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",upstream="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80",upstream_zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 0
+plus_http_upstream_peers_ssl_session_reuses{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",peer_address="10.1.10.132:8090",peer_name="10.1.10.132:8090",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",upstream="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80",upstream_zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 0
+# HELP plus_http_upstream_peers_state_checking 
+# TYPE plus_http_upstream_peers_state_checking gauge
+plus_http_upstream_peers_state_checking{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",peer_address="10.1.10.132:8080",peer_name="10.1.10.132:8080",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",upstream="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80",upstream_zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 0
+plus_http_upstream_peers_state_checking{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",peer_address="10.1.10.132:8090",peer_name="10.1.10.132:8090",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",upstream="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80",upstream_zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 0
+# HELP plus_http_upstream_peers_state_down 
+# TYPE plus_http_upstream_peers_state_down gauge
+plus_http_upstream_peers_state_down{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",peer_address="10.1.10.132:8080",peer_name="10.1.10.132:8080",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",upstream="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80",upstream_zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 0
+plus_http_upstream_peers_state_down{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",peer_address="10.1.10.132:8090",peer_name="10.1.10.132:8090",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",upstream="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80",upstream_zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 0
+# HELP plus_http_upstream_peers_state_draining 
+# TYPE plus_http_upstream_peers_state_draining gauge
+plus_http_upstream_peers_state_draining{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",peer_address="10.1.10.132:8080",peer_name="10.1.10.132:8080",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",upstream="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80",upstream_zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 0
+plus_http_upstream_peers_state_draining{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",peer_address="10.1.10.132:8090",peer_name="10.1.10.132:8090",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",upstream="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80",upstream_zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 0
+# HELP plus_http_upstream_peers_state_unavail 
+# TYPE plus_http_upstream_peers_state_unavail gauge
+plus_http_upstream_peers_state_unavail{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",peer_address="10.1.10.132:8080",peer_name="10.1.10.132:8080",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",upstream="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80",upstream_zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 0
+plus_http_upstream_peers_state_unavail{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",peer_address="10.1.10.132:8090",peer_name="10.1.10.132:8090",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",upstream="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80",upstream_zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 0
+# HELP plus_http_upstream_peers_state_unhealthy 
+# TYPE plus_http_upstream_peers_state_unhealthy gauge
+plus_http_upstream_peers_state_unhealthy{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",peer_address="10.1.10.132:8080",peer_name="10.1.10.132:8080",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",upstream="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80",upstream_zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 0
+plus_http_upstream_peers_state_unhealthy{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",peer_address="10.1.10.132:8090",peer_name="10.1.10.132:8090",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",upstream="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80",upstream_zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 0
+# HELP plus_http_upstream_peers_state_up 
+# TYPE plus_http_upstream_peers_state_up gauge
+plus_http_upstream_peers_state_up{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",peer_address="10.1.10.132:8080",peer_name="10.1.10.132:8080",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",upstream="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80",upstream_zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 1
+plus_http_upstream_peers_state_up{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",peer_address="10.1.10.132:8090",peer_name="10.1.10.132:8090",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",upstream="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80",upstream_zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 1
+# HELP plus_http_upstream_peers_status_1xx 
+# TYPE plus_http_upstream_peers_status_1xx counter
+plus_http_upstream_peers_status_1xx{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",peer_address="10.1.10.132:8080",peer_name="10.1.10.132:8080",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",upstream="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80",upstream_zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 0
+plus_http_upstream_peers_status_1xx{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",peer_address="10.1.10.132:8090",peer_name="10.1.10.132:8090",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",upstream="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80",upstream_zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 0
+# HELP plus_http_upstream_peers_status_2xx 
+# TYPE plus_http_upstream_peers_status_2xx counter
+plus_http_upstream_peers_status_2xx{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",peer_address="10.1.10.132:8080",peer_name="10.1.10.132:8080",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",upstream="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80",upstream_zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 0
+plus_http_upstream_peers_status_2xx{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",peer_address="10.1.10.132:8090",peer_name="10.1.10.132:8090",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",upstream="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80",upstream_zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 0
+# HELP plus_http_upstream_peers_status_3xx 
+# TYPE plus_http_upstream_peers_status_3xx counter
+plus_http_upstream_peers_status_3xx{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",peer_address="10.1.10.132:8080",peer_name="10.1.10.132:8080",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",upstream="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80",upstream_zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 0
+plus_http_upstream_peers_status_3xx{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",peer_address="10.1.10.132:8090",peer_name="10.1.10.132:8090",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",upstream="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80",upstream_zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 0
+# HELP plus_http_upstream_peers_status_4xx 
+# TYPE plus_http_upstream_peers_status_4xx counter
+plus_http_upstream_peers_status_4xx{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",peer_address="10.1.10.132:8080",peer_name="10.1.10.132:8080",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",upstream="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80",upstream_zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 0
+plus_http_upstream_peers_status_4xx{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",peer_address="10.1.10.132:8090",peer_name="10.1.10.132:8090",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",upstream="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80",upstream_zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 0
+# HELP plus_http_upstream_peers_status_5xx 
+# TYPE plus_http_upstream_peers_status_5xx counter
+plus_http_upstream_peers_status_5xx{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",peer_address="10.1.10.132:8080",peer_name="10.1.10.132:8080",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",upstream="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80",upstream_zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 0
+plus_http_upstream_peers_status_5xx{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",peer_address="10.1.10.132:8090",peer_name="10.1.10.132:8090",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",upstream="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80",upstream_zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 0
+# HELP plus_http_upstream_peers_total_checking 
+# TYPE plus_http_upstream_peers_total_checking gauge
+plus_http_upstream_peers_total_checking{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",upstream="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80",upstream_zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 0
+# HELP plus_http_upstream_peers_total_down 
+# TYPE plus_http_upstream_peers_total_down gauge
+plus_http_upstream_peers_total_down{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",upstream="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80",upstream_zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 0
+# HELP plus_http_upstream_peers_total_draining 
+# TYPE plus_http_upstream_peers_total_draining gauge
+plus_http_upstream_peers_total_draining{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",upstream="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80",upstream_zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 0
+# HELP plus_http_upstream_peers_total_unavail 
+# TYPE plus_http_upstream_peers_total_unavail gauge
+plus_http_upstream_peers_total_unavail{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",upstream="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80",upstream_zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 0
+# HELP plus_http_upstream_peers_total_unhealthy 
+# TYPE plus_http_upstream_peers_total_unhealthy gauge
+plus_http_upstream_peers_total_unhealthy{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",upstream="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80",upstream_zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 0
+# HELP plus_http_upstream_peers_total_up 
+# TYPE plus_http_upstream_peers_total_up gauge
+plus_http_upstream_peers_total_up{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",upstream="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80",upstream_zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 2
+# HELP plus_http_upstream_peers_unavail 
+# TYPE plus_http_upstream_peers_unavail counter
+plus_http_upstream_peers_unavail{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",peer_address="10.1.10.132:8080",peer_name="10.1.10.132:8080",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",upstream="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80",upstream_zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 0
+plus_http_upstream_peers_unavail{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",peer_address="10.1.10.132:8090",peer_name="10.1.10.132:8090",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",upstream="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80",upstream_zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 0
+# HELP plus_http_upstream_queue_maxsize 
+# TYPE plus_http_upstream_queue_maxsize gauge
+plus_http_upstream_queue_maxsize{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",upstream="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80",upstream_zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 0
+# HELP plus_http_upstream_queue_overflows 
+# TYPE plus_http_upstream_queue_overflows counter
+plus_http_upstream_queue_overflows{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",upstream="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80",upstream_zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 0
+# HELP plus_http_upstream_queue_size 
+# TYPE plus_http_upstream_queue_size gauge
+plus_http_upstream_queue_size{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",upstream="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80",upstream_zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 0
+# HELP plus_http_upstream_zombies 
+# TYPE plus_http_upstream_zombies gauge
+plus_http_upstream_zombies{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",upstream="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80",upstream_zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 0
+# HELP plus_instance_count 
+# TYPE plus_instance_count gauge
+plus_instance_count{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 1
+# HELP plus_slab_pages_free 
+# TYPE plus_slab_pages_free gauge
+plus_slab_pages_free{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 120
+plus_slab_pages_free{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",zone="forbiddenKV"} 13
+# HELP plus_slab_pages_pct_used 
+# TYPE plus_slab_pages_pct_used gauge
+plus_slab_pages_pct_used{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 6
+plus_slab_pages_pct_used{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",zone="forbiddenKV"} 13
+# HELP plus_slab_pages_total 
+# TYPE plus_slab_pages_total gauge
+plus_slab_pages_total{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 127
+plus_slab_pages_total{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",zone="forbiddenKV"} 15
+# HELP plus_slab_pages_used 
+# TYPE plus_slab_pages_used gauge
+plus_slab_pages_used{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 7
+plus_slab_pages_used{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",zone="forbiddenKV"} 2
+# HELP plus_slab_slots_1024_fails 
+# TYPE plus_slab_slots_1024_fails gauge
+plus_slab_slots_1024_fails{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 0
+plus_slab_slots_1024_fails{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",zone="forbiddenKV"} 0
+# HELP plus_slab_slots_1024_free 
+# TYPE plus_slab_slots_1024_free gauge
+plus_slab_slots_1024_free{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 2
+plus_slab_slots_1024_free{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",zone="forbiddenKV"} 0
+# HELP plus_slab_slots_1024_reqs 
+# TYPE plus_slab_slots_1024_reqs gauge
+plus_slab_slots_1024_reqs{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 2
+plus_slab_slots_1024_reqs{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",zone="forbiddenKV"} 0
+# HELP plus_slab_slots_1024_used 
+# TYPE plus_slab_slots_1024_used gauge
+plus_slab_slots_1024_used{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 2
+plus_slab_slots_1024_used{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",zone="forbiddenKV"} 0
+# HELP plus_slab_slots_128_fails 
+# TYPE plus_slab_slots_128_fails gauge
+plus_slab_slots_128_fails{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 0
+plus_slab_slots_128_fails{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",zone="forbiddenKV"} 0
+# HELP plus_slab_slots_128_free 
+# TYPE plus_slab_slots_128_free gauge
+plus_slab_slots_128_free{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 26
+plus_slab_slots_128_free{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",zone="forbiddenKV"} 0
+# HELP plus_slab_slots_128_reqs 
+# TYPE plus_slab_slots_128_reqs gauge
+plus_slab_slots_128_reqs{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 6
+plus_slab_slots_128_reqs{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",zone="forbiddenKV"} 0
+# HELP plus_slab_slots_128_used 
+# TYPE plus_slab_slots_128_used gauge
+plus_slab_slots_128_used{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 6
+plus_slab_slots_128_used{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",zone="forbiddenKV"} 0
+# HELP plus_slab_slots_16_fails 
+# TYPE plus_slab_slots_16_fails gauge
+plus_slab_slots_16_fails{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 0
+plus_slab_slots_16_fails{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",zone="forbiddenKV"} 0
+# HELP plus_slab_slots_16_free 
+# TYPE plus_slab_slots_16_free gauge
+plus_slab_slots_16_free{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 251
+plus_slab_slots_16_free{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",zone="forbiddenKV"} 0
+# HELP plus_slab_slots_16_reqs 
+# TYPE plus_slab_slots_16_reqs gauge
+plus_slab_slots_16_reqs{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 3
+plus_slab_slots_16_reqs{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",zone="forbiddenKV"} 0
+# HELP plus_slab_slots_16_used 
+# TYPE plus_slab_slots_16_used gauge
+plus_slab_slots_16_used{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 3
+plus_slab_slots_16_used{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",zone="forbiddenKV"} 0
+# HELP plus_slab_slots_2048_fails 
+# TYPE plus_slab_slots_2048_fails gauge
+plus_slab_slots_2048_fails{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 0
+plus_slab_slots_2048_fails{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",zone="forbiddenKV"} 0
+# HELP plus_slab_slots_2048_free 
+# TYPE plus_slab_slots_2048_free gauge
+plus_slab_slots_2048_free{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 0
+plus_slab_slots_2048_free{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",zone="forbiddenKV"} 0
+# HELP plus_slab_slots_2048_reqs 
+# TYPE plus_slab_slots_2048_reqs gauge
+plus_slab_slots_2048_reqs{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 0
+plus_slab_slots_2048_reqs{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",zone="forbiddenKV"} 0
+# HELP plus_slab_slots_2048_used 
+# TYPE plus_slab_slots_2048_used gauge
+plus_slab_slots_2048_used{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 0
+plus_slab_slots_2048_used{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",zone="forbiddenKV"} 0
+# HELP plus_slab_slots_256_fails 
+# TYPE plus_slab_slots_256_fails gauge
+plus_slab_slots_256_fails{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 0
+plus_slab_slots_256_fails{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",zone="forbiddenKV"} 0
+# HELP plus_slab_slots_256_free 
+# TYPE plus_slab_slots_256_free gauge
+plus_slab_slots_256_free{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 0
+plus_slab_slots_256_free{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",zone="forbiddenKV"} 15
+# HELP plus_slab_slots_256_reqs 
+# TYPE plus_slab_slots_256_reqs gauge
+plus_slab_slots_256_reqs{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 0
+plus_slab_slots_256_reqs{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",zone="forbiddenKV"} 1
+# HELP plus_slab_slots_256_used 
+# TYPE plus_slab_slots_256_used gauge
+plus_slab_slots_256_used{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 0
+plus_slab_slots_256_used{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",zone="forbiddenKV"} 1
+# HELP plus_slab_slots_32_fails 
+# TYPE plus_slab_slots_32_fails gauge
+plus_slab_slots_32_fails{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 0
+plus_slab_slots_32_fails{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",zone="forbiddenKV"} 0
+# HELP plus_slab_slots_32_free 
+# TYPE plus_slab_slots_32_free gauge
+plus_slab_slots_32_free{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 125
+plus_slab_slots_32_free{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",zone="forbiddenKV"} 126
+# HELP plus_slab_slots_32_reqs 
+# TYPE plus_slab_slots_32_reqs gauge
+plus_slab_slots_32_reqs{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 2
+plus_slab_slots_32_reqs{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",zone="forbiddenKV"} 1
+# HELP plus_slab_slots_32_used 
+# TYPE plus_slab_slots_32_used gauge
+plus_slab_slots_32_used{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 2
+plus_slab_slots_32_used{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",zone="forbiddenKV"} 1
+# HELP plus_slab_slots_512_fails 
+# TYPE plus_slab_slots_512_fails gauge
+plus_slab_slots_512_fails{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 0
+plus_slab_slots_512_fails{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",zone="forbiddenKV"} 0
+# HELP plus_slab_slots_512_free 
+# TYPE plus_slab_slots_512_free gauge
+plus_slab_slots_512_free{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 6
+plus_slab_slots_512_free{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",zone="forbiddenKV"} 0
+# HELP plus_slab_slots_512_reqs 
+# TYPE plus_slab_slots_512_reqs gauge
+plus_slab_slots_512_reqs{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 2
+plus_slab_slots_512_reqs{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",zone="forbiddenKV"} 0
+# HELP plus_slab_slots_512_used 
+# TYPE plus_slab_slots_512_used gauge
+plus_slab_slots_512_used{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 2
+plus_slab_slots_512_used{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",zone="forbiddenKV"} 0
+# HELP plus_slab_slots_64_fails 
+# TYPE plus_slab_slots_64_fails gauge
+plus_slab_slots_64_fails{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 0
+plus_slab_slots_64_fails{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",zone="forbiddenKV"} 0
+# HELP plus_slab_slots_64_free 
+# TYPE plus_slab_slots_64_free gauge
+plus_slab_slots_64_free{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 63
+plus_slab_slots_64_free{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",zone="forbiddenKV"} 0
+# HELP plus_slab_slots_64_reqs 
+# TYPE plus_slab_slots_64_reqs gauge
+plus_slab_slots_64_reqs{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 1
+plus_slab_slots_64_reqs{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",zone="forbiddenKV"} 0
+# HELP plus_slab_slots_64_used 
+# TYPE plus_slab_slots_64_used gauge
+plus_slab_slots_64_used{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 1
+plus_slab_slots_64_used{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",zone="forbiddenKV"} 0
+# HELP plus_slab_slots_8_fails 
+# TYPE plus_slab_slots_8_fails gauge
+plus_slab_slots_8_fails{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 0
+plus_slab_slots_8_fails{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",zone="forbiddenKV"} 0
+# HELP plus_slab_slots_8_free 
+# TYPE plus_slab_slots_8_free gauge
+plus_slab_slots_8_free{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 503
+plus_slab_slots_8_free{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",zone="forbiddenKV"} 0
+# HELP plus_slab_slots_8_reqs 
+# TYPE plus_slab_slots_8_reqs gauge
+plus_slab_slots_8_reqs{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 1
+plus_slab_slots_8_reqs{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",zone="forbiddenKV"} 0
+# HELP plus_slab_slots_8_used 
+# TYPE plus_slab_slots_8_used gauge
+plus_slab_slots_8_used{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",zone="f5-manage04-ingress-3-2-5-f5manage03.example.com-coffee-svc-80"} 1
+plus_slab_slots_8_used{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags="",zone="forbiddenKV"} 0
+# HELP plus_ssl_failed 
+# TYPE plus_ssl_failed counter
+plus_ssl_failed{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 0
+# HELP plus_ssl_handshakes 
+# TYPE plus_ssl_handshakes counter
+plus_ssl_handshakes{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 0
+# HELP plus_ssl_reuses 
+# TYPE plus_ssl_reuses counter
+plus_ssl_reuses{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 0
+# HELP plus_worker_conn_accepted 
+# TYPE plus_worker_conn_accepted counter
+plus_worker_conn_accepted{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",process_id="2426",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 14
+plus_worker_conn_accepted{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",process_id="2427",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 31
+# HELP plus_worker_conn_active 
+# TYPE plus_worker_conn_active gauge
+plus_worker_conn_active{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",process_id="2426",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 0
+plus_worker_conn_active{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",process_id="2427",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 1
+# HELP plus_worker_conn_dropped 
+# TYPE plus_worker_conn_dropped counter
+plus_worker_conn_dropped{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",process_id="2426",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 0
+plus_worker_conn_dropped{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",process_id="2427",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 0
+# HELP plus_worker_conn_idle 
+# TYPE plus_worker_conn_idle gauge
+plus_worker_conn_idle{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",process_id="2426",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 0
+plus_worker_conn_idle{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",process_id="2427",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 0
+# HELP plus_worker_http_request_current 
+# TYPE plus_worker_http_request_current gauge
+plus_worker_http_request_current{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",process_id="2426",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 0
+plus_worker_http_request_current{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",process_id="2427",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 1
+# HELP plus_worker_http_request_total 
+# TYPE plus_worker_http_request_total counter
+plus_worker_http_request_total{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",process_id="2426",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 1176
+plus_worker_http_request_total{display_name="server-a",hostname="server-a",instance_group="",nginx_id="b636d4376dea15405589692d3c5d3869ff3a9b26b0e7bb4bb1aa7e658ace1437",process_id="2427",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 2855
+# HELP process_cpu_seconds_total Total user and system CPU time spent in seconds.
+# TYPE process_cpu_seconds_total counter
+process_cpu_seconds_total 43.61
+# HELP process_max_fds Maximum number of open file descriptors.
+# TYPE process_max_fds gauge
+process_max_fds 524288
+# HELP process_open_fds Number of open file descriptors.
+# TYPE process_open_fds gauge
+process_open_fds 14
+# HELP process_resident_memory_bytes Resident memory size in bytes.
+# TYPE process_resident_memory_bytes gauge
+process_resident_memory_bytes 2.4576e+07
+# HELP process_start_time_seconds Start time of the process since unix epoch in seconds.
+# TYPE process_start_time_seconds gauge
+process_start_time_seconds 1.69933506849e+09
+# HELP process_virtual_memory_bytes Virtual memory size in bytes.
+# TYPE process_virtual_memory_bytes gauge
+process_virtual_memory_bytes 1.27434752e+09
+# HELP process_virtual_memory_max_bytes Maximum amount of virtual memory available in bytes.
+# TYPE process_virtual_memory_max_bytes gauge
+process_virtual_memory_max_bytes 1.8446744073709552e+19
+# HELP system_cpu_idle 
+# TYPE system_cpu_idle gauge
+system_cpu_idle{display_name="server-a",hostname="server-a",instance_group="",nginx_id="",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 99.5649263721553
+# HELP system_cpu_iowait 
+# TYPE system_cpu_iowait gauge
+system_cpu_iowait{display_name="server-a",hostname="server-a",instance_group="",nginx_id="",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 0
+# HELP system_cpu_stolen 
+# TYPE system_cpu_stolen gauge
+system_cpu_stolen{display_name="server-a",hostname="server-a",instance_group="",nginx_id="",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 0
+# HELP system_cpu_system 
+# TYPE system_cpu_system gauge
+system_cpu_system{display_name="server-a",hostname="server-a",instance_group="",nginx_id="",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 0.30120481927710274
+# HELP system_cpu_user 
+# TYPE system_cpu_user gauge
+system_cpu_user{display_name="server-a",hostname="server-a",instance_group="",nginx_id="",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 0.13386880856760092
+# HELP system_disk_free 
+# TYPE system_disk_free gauge
+system_disk_free{display_name="server-a",hostname="server-a",instance_group="",mount_point="/",nginx_id="",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 4.496236544e+09
+system_disk_free{display_name="server-a",hostname="server-a",instance_group="",mount_point="/boot",nginx_id="",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 1.43900672e+09
+system_disk_free{display_name="server-a",hostname="server-a",instance_group="",mount_point="/boot/efi",nginx_id="",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 9.9072e+08
+# HELP system_disk_in_use 
+# TYPE system_disk_in_use gauge
+system_disk_in_use{display_name="server-a",hostname="server-a",instance_group="",mount_point="/",nginx_id="",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 54.63101228546926
+system_disk_in_use{display_name="server-a",hostname="server-a",instance_group="",mount_point="/boot",nginx_id="",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 15.340702345408586
+system_disk_in_use{display_name="server-a",hostname="server-a",instance_group="",mount_point="/boot/efi",nginx_id="",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 0.6624556446313575
+# HELP system_disk_total 
+# TYPE system_disk_total gauge
+system_disk_total{display_name="server-a",hostname="server-a",instance_group="",mount_point="/",nginx_id="",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 1.0464022528e+10
+system_disk_total{display_name="server-a",hostname="server-a",instance_group="",mount_point="/boot",nginx_id="",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 1.810489344e+09
+system_disk_total{display_name="server-a",hostname="server-a",instance_group="",mount_point="/boot/efi",nginx_id="",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 9.97326848e+08
+# HELP system_disk_used 
+# TYPE system_disk_used gauge
+system_disk_used{display_name="server-a",hostname="server-a",instance_group="",mount_point="/",nginx_id="",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 5.414137856e+09
+system_disk_used{display_name="server-a",hostname="server-a",instance_group="",mount_point="/boot",nginx_id="",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 2.60755456e+08
+system_disk_used{display_name="server-a",hostname="server-a",instance_group="",mount_point="/boot/efi",nginx_id="",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 6.606848e+06
+# HELP system_io_iops_r 
+# TYPE system_io_iops_r counter
+system_io_iops_r{display_name="server-a",hostname="server-a",instance_group="",mount_point="nvme0n1",nginx_id="",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 0
+system_io_iops_r{display_name="server-a",hostname="server-a",instance_group="",mount_point="nvme0n1p1",nginx_id="",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 0
+system_io_iops_r{display_name="server-a",hostname="server-a",instance_group="",mount_point="nvme0n1p2",nginx_id="",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 0
+system_io_iops_r{display_name="server-a",hostname="server-a",instance_group="",mount_point="nvme0n1p3",nginx_id="",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 0
+system_io_iops_r{display_name="server-a",hostname="server-a",instance_group="",mount_point="sr0",nginx_id="",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 0
+# HELP system_io_iops_w 
+# TYPE system_io_iops_w counter
+system_io_iops_w{display_name="server-a",hostname="server-a",instance_group="",mount_point="nvme0n1",nginx_id="",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 6
+system_io_iops_w{display_name="server-a",hostname="server-a",instance_group="",mount_point="nvme0n1p1",nginx_id="",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 0
+system_io_iops_w{display_name="server-a",hostname="server-a",instance_group="",mount_point="nvme0n1p2",nginx_id="",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 0
+system_io_iops_w{display_name="server-a",hostname="server-a",instance_group="",mount_point="nvme0n1p3",nginx_id="",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 6
+system_io_iops_w{display_name="server-a",hostname="server-a",instance_group="",mount_point="sr0",nginx_id="",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 0
+# HELP system_io_kbs_r 
+# TYPE system_io_kbs_r counter
+system_io_kbs_r{display_name="server-a",hostname="server-a",instance_group="",mount_point="nvme0n1",nginx_id="",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 0
+system_io_kbs_r{display_name="server-a",hostname="server-a",instance_group="",mount_point="nvme0n1p1",nginx_id="",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 0
+system_io_kbs_r{display_name="server-a",hostname="server-a",instance_group="",mount_point="nvme0n1p2",nginx_id="",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 0
+system_io_kbs_r{display_name="server-a",hostname="server-a",instance_group="",mount_point="nvme0n1p3",nginx_id="",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 0
+system_io_kbs_r{display_name="server-a",hostname="server-a",instance_group="",mount_point="sr0",nginx_id="",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 0
+# HELP system_io_kbs_w 
+# TYPE system_io_kbs_w counter
+system_io_kbs_w{display_name="server-a",hostname="server-a",instance_group="",mount_point="nvme0n1",nginx_id="",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 61.44000000000233
+system_io_kbs_w{display_name="server-a",hostname="server-a",instance_group="",mount_point="nvme0n1p1",nginx_id="",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 0
+system_io_kbs_w{display_name="server-a",hostname="server-a",instance_group="",mount_point="nvme0n1p2",nginx_id="",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 0
+system_io_kbs_w{display_name="server-a",hostname="server-a",instance_group="",mount_point="nvme0n1p3",nginx_id="",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 61.44000000000233
+system_io_kbs_w{display_name="server-a",hostname="server-a",instance_group="",mount_point="sr0",nginx_id="",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 0
+# HELP system_io_wait_r 
+# TYPE system_io_wait_r counter
+system_io_wait_r{display_name="server-a",hostname="server-a",instance_group="",mount_point="nvme0n1",nginx_id="",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 0
+system_io_wait_r{display_name="server-a",hostname="server-a",instance_group="",mount_point="nvme0n1p1",nginx_id="",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 0
+system_io_wait_r{display_name="server-a",hostname="server-a",instance_group="",mount_point="nvme0n1p2",nginx_id="",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 0
+system_io_wait_r{display_name="server-a",hostname="server-a",instance_group="",mount_point="nvme0n1p3",nginx_id="",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 0
+system_io_wait_r{display_name="server-a",hostname="server-a",instance_group="",mount_point="sr0",nginx_id="",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 0
+# HELP system_io_wait_w 
+# TYPE system_io_wait_w counter
+system_io_wait_w{display_name="server-a",hostname="server-a",instance_group="",mount_point="nvme0n1",nginx_id="",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 5
+system_io_wait_w{display_name="server-a",hostname="server-a",instance_group="",mount_point="nvme0n1p1",nginx_id="",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 0
+system_io_wait_w{display_name="server-a",hostname="server-a",instance_group="",mount_point="nvme0n1p2",nginx_id="",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 0
+system_io_wait_w{display_name="server-a",hostname="server-a",instance_group="",mount_point="nvme0n1p3",nginx_id="",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 5
+system_io_wait_w{display_name="server-a",hostname="server-a",instance_group="",mount_point="sr0",nginx_id="",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 0
+# HELP system_load_1 
+# TYPE system_load_1 gauge
+system_load_1{display_name="server-a",hostname="server-a",instance_group="",nginx_id="",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 0
+# HELP system_load_15 
+# TYPE system_load_15 gauge
+system_load_15{display_name="server-a",hostname="server-a",instance_group="",nginx_id="",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 0
+# HELP system_load_5 
+# TYPE system_load_5 gauge
+system_load_5{display_name="server-a",hostname="server-a",instance_group="",nginx_id="",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 0
+# HELP system_mem_available 
+# TYPE system_mem_available gauge
+system_mem_available{display_name="server-a",hostname="server-a",instance_group="",nginx_id="",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 3.769409536e+09
+# HELP system_mem_buffered 
+# TYPE system_mem_buffered gauge
+system_mem_buffered{display_name="server-a",hostname="server-a",instance_group="",nginx_id="",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 2.1897216e+07
+# HELP system_mem_cached 
+# TYPE system_mem_cached gauge
+system_mem_cached{display_name="server-a",hostname="server-a",instance_group="",nginx_id="",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 3.74554624e+08
+# HELP system_mem_free 
+# TYPE system_mem_free gauge
+system_mem_free{display_name="server-a",hostname="server-a",instance_group="",nginx_id="",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 3.533520896e+09
+# HELP system_mem_pct_used 
+# TYPE system_mem_pct_used gauge
+system_mem_pct_used{display_name="server-a",hostname="server-a",instance_group="",nginx_id="",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 4.1882071924801805
+# HELP system_mem_shared 
+# TYPE system_mem_shared gauge
+system_mem_shared{display_name="server-a",hostname="server-a",instance_group="",nginx_id="",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 1.024e+06
+# HELP system_mem_total 
+# TYPE system_mem_total gauge
+system_mem_total{display_name="server-a",hostname="server-a",instance_group="",nginx_id="",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 4.101763072e+09
+# HELP system_mem_used 
+# TYPE system_mem_used gauge
+system_mem_used{display_name="server-a",hostname="server-a",instance_group="",nginx_id="",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 1.71790336e+08
+# HELP system_net_bytes_rcvd 
+# TYPE system_net_bytes_rcvd counter
+system_net_bytes_rcvd{display_name="server-a",hostname="server-a",instance_group="",nginx_id="",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 9855
+system_net_bytes_rcvd{display_name="server-a",hostname="server-a",instance_group="",network_interface="ens160",nginx_id="",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 0
+system_net_bytes_rcvd{display_name="server-a",hostname="server-a",instance_group="",network_interface="lo",nginx_id="",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 9855
+# HELP system_net_bytes_sent 
+# TYPE system_net_bytes_sent counter
+system_net_bytes_sent{display_name="server-a",hostname="server-a",instance_group="",nginx_id="",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 9855
+system_net_bytes_sent{display_name="server-a",hostname="server-a",instance_group="",network_interface="ens160",nginx_id="",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 0
+system_net_bytes_sent{display_name="server-a",hostname="server-a",instance_group="",network_interface="lo",nginx_id="",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 9855
+# HELP system_net_drops_in_count 
+# TYPE system_net_drops_in_count counter
+system_net_drops_in_count{display_name="server-a",hostname="server-a",instance_group="",nginx_id="",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 0
+system_net_drops_in_count{display_name="server-a",hostname="server-a",instance_group="",network_interface="ens160",nginx_id="",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 0
+system_net_drops_in_count{display_name="server-a",hostname="server-a",instance_group="",network_interface="lo",nginx_id="",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 0
+# HELP system_net_drops_out_count 
+# TYPE system_net_drops_out_count counter
+system_net_drops_out_count{display_name="server-a",hostname="server-a",instance_group="",nginx_id="",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 0
+system_net_drops_out_count{display_name="server-a",hostname="server-a",instance_group="",network_interface="ens160",nginx_id="",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 0
+system_net_drops_out_count{display_name="server-a",hostname="server-a",instance_group="",network_interface="lo",nginx_id="",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 0
+# HELP system_net_listen_overflows 
+# TYPE system_net_listen_overflows counter
+system_net_listen_overflows{display_name="server-a",hostname="server-a",instance_group="",nginx_id="",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 0
+# HELP system_net_packets_in_count 
+# TYPE system_net_packets_in_count counter
+system_net_packets_in_count{display_name="server-a",hostname="server-a",instance_group="",nginx_id="",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 40
+system_net_packets_in_count{display_name="server-a",hostname="server-a",instance_group="",network_interface="ens160",nginx_id="",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 0
+system_net_packets_in_count{display_name="server-a",hostname="server-a",instance_group="",network_interface="lo",nginx_id="",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 40
+# HELP system_net_packets_in_error 
+# TYPE system_net_packets_in_error counter
+system_net_packets_in_error{display_name="server-a",hostname="server-a",instance_group="",nginx_id="",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 0
+system_net_packets_in_error{display_name="server-a",hostname="server-a",instance_group="",network_interface="ens160",nginx_id="",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 0
+system_net_packets_in_error{display_name="server-a",hostname="server-a",instance_group="",network_interface="lo",nginx_id="",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 0
+# HELP system_net_packets_out_count 
+# TYPE system_net_packets_out_count counter
+system_net_packets_out_count{display_name="server-a",hostname="server-a",instance_group="",nginx_id="",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 40
+system_net_packets_out_count{display_name="server-a",hostname="server-a",instance_group="",network_interface="ens160",nginx_id="",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 0
+system_net_packets_out_count{display_name="server-a",hostname="server-a",instance_group="",network_interface="lo",nginx_id="",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 40
+# HELP system_net_packets_out_error 
+# TYPE system_net_packets_out_error counter
+system_net_packets_out_error{display_name="server-a",hostname="server-a",instance_group="",nginx_id="",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 0
+system_net_packets_out_error{display_name="server-a",hostname="server-a",instance_group="",network_interface="ens160",nginx_id="",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 0
+system_net_packets_out_error{display_name="server-a",hostname="server-a",instance_group="",network_interface="lo",nginx_id="",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 0
+# HELP system_swap_free 
+# TYPE system_swap_free gauge
+system_swap_free{display_name="server-a",hostname="server-a",instance_group="",nginx_id="",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 2.063593472e+09
+# HELP system_swap_pct_free 
+# TYPE system_swap_pct_free gauge
+system_swap_pct_free{display_name="server-a",hostname="server-a",instance_group="",nginx_id="",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 100
+# HELP system_swap_total 
+# TYPE system_swap_total gauge
+system_swap_total{display_name="server-a",hostname="server-a",instance_group="",nginx_id="",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 2.063593472e+09
+# HELP system_swap_used 
+# TYPE system_swap_used gauge
+system_swap_used{display_name="server-a",hostname="server-a",instance_group="",nginx_id="",system_id="f57e8044-f3e5-367e-adc9-dae69618c444",system_tags=""} 0

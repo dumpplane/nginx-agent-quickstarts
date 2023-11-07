@@ -1,0 +1,105 @@
+= What's it?
+:toc: manual
+
+Quickstarts for using and understanding https://github.com/nginx/agent.
+
+== Installation
+
+=== Install Agent on Ubuntu 22.04(aarch64)
+
+[source, bash]
+.*Download*
+----
+wget https://github.com/nginx/agent/releases/download/v2.30.3/nginx-agent-2.30.3.jammy_arm64.deb
+chmod a+x nginx-agent-2.30.3.jammy_arm64.deb
+----
+
+[source, bash]
+.*Install*
+----
+sudo dpkg -i nginx-agent-2.30.3.jammy_arm64.deb
+----
+
+[source, bash]
+.*Packages*
+----
+$ dpkg -L nginx-agent
+/etc
+/etc/logrotate.d
+/etc/logrotate.d/nginx-agent
+/etc/nginx-agent
+/etc/nginx-agent/nginx-agent.conf
+/etc/systemd
+/etc/systemd/system
+/etc/systemd/system/nginx-agent.service
+/usr
+/usr/bin
+/usr/bin/nginx-agent
+/var
+/var/log
+/var/log/nginx-agent
+---- 
+
+[source, bash]
+.*Start*
+----
+sudo systemctl start nginx-agent
+sudo systemctl status nginx-agent
+---- 
+
+== Configuration
+
+=== Enable REST API
+
+[source, bash]
+.*Add the following configs to /etc/nginx-agent/nginx-agent.conf*
+----
+api:
+  host: 0.0.0.0
+  port: 8038
+---- 
+
+[source, bash]
+.*Restart nginx-agent*
+----
+sudo systemctl restart nginx-agent
+---- 
+
+== REST API Usage Guide
+
+=== Get NGINX Instances 
+
+[source, bash]
+----
+curl -X GET -H 'accept: application/json' http://10.1.10.129:8038/nginx/
+---- 
+
+link:etc/files/nginx-instances.json[nginx-instances.json]
+
+=== Get NGINX Metrics
+
+[source, bash]
+----
+curl -X GET -H 'accept: text/plain' http://10.1.10.129:8038/metrics/
+----
+
+link:etc/files/nginx-metrics.txt[nginx-metrics.txt]
+
+=== Apply NGINX Configuration
+
+[source, bash]
+----
+
+---- 
+
+[source, bash]
+.**
+----
+
+---- 
+
+[source, bash]
+.**
+----
+
+---- 
